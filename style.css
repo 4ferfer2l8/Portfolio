@@ -35,6 +35,7 @@ body {
     background-color: var(--bg-color);
     color: var(--text-color);
     transition: background-color 0.3s, color 0.3s;
+    font-size: 16px;
 }
 
 #theme-switch{
@@ -685,6 +686,9 @@ footer ul li a{
 }
 
 @media(max-width:768px){
+    body{
+        font-size: 18px;
+    }
     header{
         gap: 1rem;
         padding: 1rem 1rem;
@@ -773,6 +777,9 @@ footer ul li a{
     html{
         font-size: 50%;
     }
+    body{
+        font-size: 20px;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -781,5 +788,11 @@ footer ul li a{
     .resume-box .desc,
     .resume-box.about .resume-item{
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    body{
+        font-size: 22px;
     }
 }
