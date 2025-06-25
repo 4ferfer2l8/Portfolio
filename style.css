@@ -375,9 +375,7 @@ section{
 }
 
 .resume-detail.skills .resume-list {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     height: auto;
     overflow: visible;
 }
@@ -673,26 +671,17 @@ footer ul li a{
     }
 }
 
-@media(max-width: 900px) {
-  .resume-container {
-    grid-template-columns: 1fr; /* Stack vertical */
-    gap: 3rem;
-  }
-
-  .resume-box .resume-btn {
-    font-size: 1.4rem;
-  }
-
-  .resume-detail .resume-list {
-    grid-template-columns: 1fr; /* Cards empilhados */
-  }
-
-  .resume-item {
-    padding: 2rem 1.5rem;
-    height: auto;
-  }
+@media screen and (max-width: 1200px){
+    html{
+        font-size: 55%;
+    }
 }
 
+@media screen and (max-width: 992px) {
+    section {
+        padding: 10rem 4% 2rem;
+    }
+}
 
 @media(max-width:768px){
     header{
@@ -721,8 +710,9 @@ footer ul li a{
     .grid{
         grid-template-columns: repeat(1,1fr);
     }
-    .resume-detail.skills .resume-list {
-    grid-template-columns: repeat(2, 1fr);
+    .resume-container{
+        grid-template-columns: 1fr;
+        gap: 3rem;
     }
 }
 
@@ -772,69 +762,19 @@ footer ul li a{
     footer ul{
         gap: 1.5rem;
     }
-    .resume-container {
-    grid-template-columns: 1fr;
-    padding: 2rem 5%;
-    }
-    
-    .resume-box {
-        padding: 1rem;
-    }
-    .resume-box .resume-btn {
-    height: 4rem;
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
-    }
-    .resume-detail.about .resume-item p {
-    font-size: 1.3rem;
-    white-space: normal;
-    display: flex;
-    flex-direction: column;
-    }
-    .resume-detail.about .resume-item p span {
-        font-size: 1.4rem;
-        margin-left: 0;
-        margin-top: 0.3rem;
-    }
-    .resume-detail.about .resume-list {
-        gap: 1rem;
-    }
-    .resume-detail.about .resume-item {
-        padding: 1rem;
-        border-bottom: 1px solid var(--card-border);
+}
+
+@media screen and (max-width: 450px) {
+    html{
+        font-size: 50%;
     }
 }
 
-@media (max-width: 480px) {
-  .resume-detail.skills .resume-list {
-    grid-template-columns: 1fr;
-  }
-  .resume-detail.education .resume-list{
-    grid-template-columns: 1fr;
-  }
-  .resume-detail.about .resume-list {
-    grid-template-columns: 1fr;
-  }
-}
-
-@media (max-width: 375px) {
-  .resume-detail.about .resume-item p {
-    font-size: 1.1rem;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-  }
-
-  .resume-detail.about .resume-item p span {
-    font-size: 1.2rem;
-    margin-left: 0.5rem;
-  }
-
-  .resume-box .heading {
-    font-size: 2.5rem;
-  }
-
-  .resume-box .desc {
-    font-size: 1.3rem;
-  }
+@media screen and (max-width: 400px) {
+    .resume-box h2,
+    .resume-box .heading,
+    .resume-box .desc,
+    .resume-box.about .resume-item{
+        text-align: center;
+    }
 }
