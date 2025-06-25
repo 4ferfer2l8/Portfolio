@@ -120,6 +120,7 @@ li a:hover::before{
 #menu-icon{
     font-size: 2rem;
     display: none;
+    order: 2;
 }
 
 section{
@@ -745,7 +746,11 @@ footer ul li a{
         gap: 8rem;
     }
     header .logo{
-        font-size: 1.5rem;
+        font-size: 1.2rem; 
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 60%;
     }
 
     .about-container img{
