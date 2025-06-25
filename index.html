@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href='https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+    <header class="header">
+        <button id="theme-switch">
+            <i class="fa-solid fa-sun" id="toggle-icon"></i>
+        </button>
+        
+        <a href="#" class="logo"><span>Maria Fernanda Testai</span></a>
+
+        <ul class="nav-links">
+            <li>
+                <a href="#about">About</a>
+            </li>
+
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+        </ul>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <a href="https://github.com/4ferfer2l8" target="_blank">
+            <button class="visit-btn">Visit Github</button>
+        </a>
+    </header>
+
+    <section id="about" class="about">
+        <div class="about-container">
+            <img src="img/foto2.png" alt="">
+
+            <div class="info-box">
+                <div class="text">
+                    <h3>Hi, I'm</h3>
+                    <h1>M. Fernanda</h1>
+                    <span>Systems Developer</span>
+                </div>
+
+                <div class="btn-group">
+                    <div class="btn">
+                        <a href="curriculo/Currículo Maria Fernanda Testai.pdf" download target="_blank">Download CV</a>
+                    </div>
+                    <div class="btn">
+                        <a href="mailto:mariafernandatestai@outlook.com">Contact</a>
+                    </div>
+                </div>
+
+                <div class="social">
+                    <a href="https://github.com/4ferfer2l8" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/maria-fernanda-testai-6889a6289" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="resume active">
+        <div class="resume-container">
+            <div class="resume-box">
+                <h2>Experience</h2>
+                <p class="desc">Minha jornada na tecnologia começou em 2023, no Senai Cimatec, onde descobri minha paixão por transformar ideias em código. Desde então, venho me dedicando ao estudo de soluções criativas e eficientes, combinando lógica de programação com design intuitivo para construir sistemas que resolvem problemas reais.</p>
+                <button class="resume-btn active">Education</button>
+                <button class="resume-btn">Skills</button>
+                <button class="resume-btn">About Me</button>
+            </div>
+
+            <div class="resume-box">
+                <div class="resume-detail education active">
+                    <h2 class="heading">My <span>Education</span></h2>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p class="year">2023 - 2025</p>
+                            <h3>Desenvolvimento de Sistemas</h3>
+                            <p class="company">Senai Cimatec</p>
+                            <p>Formação técnica pelo SENAI CIMATEC com foco em desenvolvimento full-stack. Domínio de tecnologias como HTML, CSS, JavaScript, React.js, Node.js e SQL, além de metodologias ágeis (Scrum) e lógica de programação. Experiência prática em projetos reais, incluindo o desenvolvimento do meu TCC, o SGRC (sistema de gestão para relatórios técnicos).</p>
+                        </div>
+                        
+                        <div class="resume-item">
+                            <p class="year">2024 - Presente</p>
+                            <h3>Jogos Digitais</h3>
+                            <p class="company">Universidade do Estado da Bahia (UNEB)</p>
+                            <p>Bacharelado em Jogos Digitais com ênfase em programação (Unity, C#), design de gameplay e modelagem 3D. Atualmente desenvolvendo projetos acadêmicos como SunnyLand (jogo 2D de plataforma) e estudando narrativa interativa, inteligência artificial aplicada a games e otimização de performance.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resume-detail skills">
+                    <h2 class="heading">My <span>Skills</span></h2>
+                    <p class="desc">Minhas competências técnicas, refinadas em projetos acadêmicos, são complementadas por soft skills essenciais: comunicação técnica eficiente, colaboração em equipe e mentalidade de crescimento contínuo.</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <i class='bxl bx-html5'></i> 
+                            <span>HTML5</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bxl bx-css3'></i> 
+                            <span>CSS3</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bxl bx-javascript'></i> 
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bxl bx-react'></i> 
+                            <span>React.js</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bxl bx-tailwind-css'></i> 
+                            <span>Tailwind CSS</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bxl bx-nodejs'></i> 
+                            <span>Node.js</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bxl bx-my-sql'></i> 
+                            <span>MySQL</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bxl bx-c-sharp'></i> 
+                            <span>C#</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resume-detail about">
+                    <h2 class="heading">About <span>Me</span></h2>
+                    <p class="desc">Interessado(a) em meu trabalho? Vamos conversar! Estou disponível para oportunidades de colaboração, projetos freelancer ou posições que demandem criatividade técnica e soluções inovadoras. Meu compromisso é entregar resultados que superem expectativas.</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p>Nome <span>Maria Fernanda Testai</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Gênero <span>Feminino</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Idade <span>19 Anos</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Cidade <span>Camaçari - BA</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Full Time <span>Disponível</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Freelance <span>Disponível</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Celular <span>(+55) 71 996631133</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Email <span>mariafernandatestai@outlook.com</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Idiomas <span>Português fluente, Inglês intermediário</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+
+        <h2 class="section-title">Projetos Recentes</h2>
+
+        <div class="project-grid">
+
+            <div class="project-card">
+                <img src="img/estrategic.png">
+                <h3>SGRC - Trabalho de Conclusão de Curso Técnico</h3>
+                <div class="project-content">
+                    <div class="description-text">
+                        <p>O SGRC é uma aplicação web desenvolvida para a empresa de fibra óptica Estrategic Engenharia, com o objetivo de automatizar os processos de validação de relatórios técnicos que antes eram realizados manualmente pelos colaboradores. O sistema foi desenvolvido como Trabalho de Conclusão de Curso (TCC) do curso técnico em Desenvolvimento de Sistemas no SENAI CIMATEC.</p>
+                    </div>
+                    <h4>Tecnologias utilizadas: HTML, CSS, JavaScript, Node.js, PostgreSQL e Google Cloud.</h4>
+                </div>
+                <div class="btn-group">
+                    <div class="btn">
+                        <a href="https://www.youtube.com/watch?v=OIGJ06Pw1mg">Demo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="img/ap&rep.png">
+                <h3>Rep&Aprov - TCC Técnico de Mecânica</h3>
+                <div class="project-content">
+                    <div class="description-text">
+                        <p>O Rep&Aprov é uma aplicação web desenvolvida em parceria com uma equipe do curso técnico de Mecânica, como parte do Trabalho de Conclusão de Curso (TCC) deles. O projeto consiste em um quiz interativo sobre a manutenção de bombas centrífugas, com o objetivo de tornar as aulas mais dinâmicas e engajadoras.</p>
+                    </div>
+                    <h4>Tecnologias utilizadas: React.js com Tailwind CSS.</h4>
+                </div>
+                <div class="btn-group">
+                    <div class="btn">
+                        <a href="https://www.youtube.com/watch?v=Ea8Kmqan_GM">Demo</a>
+                    </div>
+                    <div class="btn">
+                        <a href="https://github.com/IcaroDEVms/TCC-mecanica.git">Github Repo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="img/sunny.png">
+                <h3>Jogo de Plataforma Invasão da SunnyLand</h3>
+                <div class="project-content">
+                    <div class="description-text">
+                        <p>SunnyLand é um jogo 2D de plataforma desenvolvido como projeto acadêmico. Nele, o jogador controla a personagem Foxy em uma jornada por diferentes fases, enfrentando inimigos e chefes até alcançar o desafio final. Ao derrotar o chefão, o jogador conclui o jogo com êxito.</p>
+                    </div>
+                    <h4>Tecnologias utilizadas: Unity com programação em C#.</h4>
+                </div>
+                <div class="btn-group">
+                    <div class="btn">
+                        <a href="https://www.youtube.com/watch?v=9usInAmbozs">Demo</a>
+                    </div>
+                    <div class="btn">
+                        <a href="https://github.com/PSdevj/SunnyLand">Github Repo</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <footer>
+
+        <ul>
+            <li>
+                <a href="#about">About</a>
+            </li>
+
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+        </ul>
+
+        <p class="copyright">© All Rights Reserved | M. Fernanda Testai</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
