@@ -671,6 +671,24 @@ footer ul li a{
     .input-box i{
         font-size: 2.5rem;
     }
+    .resume-box .desc{
+        font-size: 2rem;
+    }
+    .resume-detail.skills .desc{
+        font-size: 1.8rem;
+    }
+    .resume-detail.about .resume-item{
+        font-size: 1.5rem;
+    }
+    .resume-detail.about p{
+        font-size: 1.8rem;
+    }
+    .resume-detail.about .resume-item p{
+        font-size: 1.7rem;
+    }
+    .resume-item p, .resume-item .company {
+        font-size: 2rem;
+    }
 }
 
 @media screen and (max-width: 1200px){
@@ -680,6 +698,28 @@ footer ul li a{
     header .logo{
         font-size: 1.5rem;
     }
+    .project-content .description-text p {
+        font-size: 1.7rem;
+        line-height: 1.8rem;
+    }
+    .resume-box .desc{
+        font-size: 2rem;
+    }
+    .resume-detail.skills .desc{
+        font-size: 1.8rem;
+    }
+    .resume-detail.about .resume-item{
+        font-size: 1.5rem;
+    }
+    .resume-detail.about p{
+        font-size: 1.8rem;
+    }
+    .resume-detail.about .resume-item p{
+        font-size: 1.7rem;
+    }
+    .resume-item p, .resume-item .company {
+        font-size: 2rem;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -688,6 +728,28 @@ footer ul li a{
     }
     header .logo{
         font-size: 1.5rem;
+    }
+    .project-content .description-text p {
+        font-size: 1.7rem;
+        line-height: 1.8rem;
+    }
+    .resume-box .desc{
+        font-size: 2rem;
+    }
+    .resume-detail.skills .desc{
+        font-size: 1.8rem;
+    }
+    .resume-detail.about .resume-item{
+        font-size: 1.5rem;
+    }
+    .resume-detail.about p{
+        font-size: 1.8rem;
+    }
+    .resume-detail.about .resume-item p{
+        font-size: 1.7rem;
+    }
+    .resume-item p, .resume-item .company {
+        font-size: 2rem;
     }
 }
 
@@ -724,6 +786,28 @@ footer ul li a{
     .resume-container{
         grid-template-columns: 1fr;
         gap: 3rem;
+    }
+    .project-content .description-text p {
+        font-size: 1.7rem;
+        line-height: 1.8rem;
+    }
+    .resume-box .desc{
+        font-size: 2rem;
+    }
+    .resume-detail.skills .desc{
+        font-size: 1.8rem;
+    }
+    .resume-detail.about .resume-item{
+        font-size: 1.5rem;
+    }
+    .resume-detail.about p{
+        font-size: 1.8rem;
+    }
+    .resume-detail.about .resume-item p{
+        font-size: 1.7rem;
+    }
+    .resume-item p, .resume-item .company {
+        font-size: 2rem;
     }
 }
 
@@ -777,6 +861,28 @@ footer ul li a{
     footer ul{
         gap: 1.5rem;
     }
+    .project-content .description-text p {
+        font-size: 1.7rem;
+        line-height: 1.8rem;
+    }
+    .resume-box .desc{
+        font-size: 2rem;
+    }
+    .resume-detail.skills .desc{
+        font-size: 1.8rem;
+    }
+    .resume-detail.about .resume-item{
+        font-size: 1.6rem;
+    }
+    .resume-detail.about p{
+        font-size: 1.8rem;
+    }
+    .resume-detail.about .resume-item p{
+        font-size: 1.7rem;
+    }
+    .resume-item p, .resume-item .company {
+        font-size: 2rem;
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -797,6 +903,28 @@ footer ul li a{
     .resume-box h2 {
         font-size: 2.8rem;
     }
+    .project-content .description-text p {
+        font-size: 1.7rem;
+        line-height: 1.8rem;
+    }
+    .resume-box .desc{
+        font-size: 2rem;
+    }
+    .resume-detail.skills .desc{
+        font-size: 1.8rem;
+    }
+    .resume-detail.about .resume-item{
+        font-size: 1.5rem;
+    }
+    .resume-detail.about p{
+        font-size: 1.8rem;
+    }
+    .resume-detail.about .resume-item p{
+        font-size: 1.7rem;
+    }
+    .resume-item p, .resume-item .company {
+        font-size: 2rem;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -806,22 +934,19 @@ footer ul li a{
     .resume-box.about .resume-item{
         text-align: center;
     }
-}
-
-@media screen and (max-width: 350px) {
-    body{
-        font-size: 22px;
+    .resume-box .desc{
+        font-size: 2rem;
     }
-    .btn, .resume-btn {
-        font-size: 1.3rem;
+    .resume-detail.skills .desc{
+        font-size: 1.8rem;
     }
-    
+    .resume-detail.about p{
+        font-size: 1.8rem;
+    }
+    .resume-detail.about .resume-item p{
+        font-size: 1.7rem;
+    }
     .resume-item p, .resume-item .company {
-        font-size: 1.5rem;
-    }
-    
-    .project-content .description-text p {
-        font-size: 1.4rem;
-        line-height: 1.8rem;
+        font-size: 2rem;
     }
 }
